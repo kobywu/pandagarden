@@ -3,6 +3,17 @@ body {
   margin: 0;
 }
 
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.restrict-img-size {
+	max-height: 75%;
+	max-width: 75%;
+}
+
 * {
   box-sizing: border-box;
 }
