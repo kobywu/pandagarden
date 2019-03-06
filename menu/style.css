@@ -2,7 +2,7 @@ body{
 	margin:0;
 	padding:0;
 	border:0;
-	background-color:red;
+	background-color:white;
 }
 .tab-bar{
 	width:100%;
@@ -69,19 +69,18 @@ body{
 	height:100%;
 }
 
-
-
-
 .collapsible {
-  background-color: silver;
-  color: white;
+  background-color: white;
+  color: black;
+  font-family:"Lucida Console";
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 25px;
+  font-weight:bold;
 
 }
 .list{
@@ -89,23 +88,26 @@ body{
 }
 .items{
 	font-size:20px;
-	width:50%;
+	width:70%;
 }
-
+.price{
+	font-size:20px;
+	width:30%;
+}
 .collapsible:after {
   content: '\002B';
-  color: white;
+  color: black;
   font-weight: bold;
   float: right;
   margin-left: 5px;
 }
 
-
+.hovereffect {
+	background-color:red;
+}
 .menu {
-  padding: 0 18px;
   max-height: 0;
   overflow: hidden;
-  width:100%;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
   width:100%;

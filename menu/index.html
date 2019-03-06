@@ -25,89 +25,83 @@
 			<div class="sideImg"></div>
 			<div class="content">
 			<div class="list">
-				<button class="collapsible">Combination Plates</button>
-				<div class="menu">
+				<button class="collapsible" onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Combination Plates</button>
+				<div class="menu" id="comboPlate">
 				  <div class="items">words</div>
 				</div>
-				<button class="collapsible">Chef's Recommendations</button>
-				<div class="menu">
+				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Chef's Recommendations</button>
+				<div class="menu" id="chef">
 				  <div class="items">words</div>
 				</div>
-				<button class="collapsible">Appetizers</button>
-				<div class="menu">
+				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Appetizers</button>
+				<div class="menu" id="apps">
 				  <div class="items">7. Egg Roll (2) 春卷</div>
-				  <div class="items">2.50</div>
+				  <div class="price">2.50</div>
 				  <div class="items">7A. Pot Stickers (10) </div>
-				  <div class="items">7.25</div>
+				  <div class="price">7.25</div>
 				  <div class="items">7B. Dumplings (10) </div>
-				  <div class="items">7.25</div>
+				  <div class="price">7.25</div>
 				  <div class="items">8. B.B.Q. Pork </div>
-				  <div class="items">8.50</div>
+				  <div class="price">8.50</div>
 				  <div class="items">9. B.B.Q. Ribs (4)</div>
-				  <div class="items">9.50</div>
+				  <div class="price">9.50</div>
 				  <div class="items">10. Paper Wrapped Chicken (6)</div>
-				  <div class="items">7.25</div>
+				  <div class="price">7.25</div>
 				  <div class="items">11. Fried Shrimp (6) </div>
-				  <div class="items">7.95</div>
+				  <div class="price">7.95</div>
 				  <div class="items">12. Fried Won Ton (10)</div>
-				  <div class="items">5.95</div>
+				  <div class="price">5.95</div>
 				  <div class="items">14. Pu-Pu Platter (For Two Persons) 
-					<div class="description">Assorted arrgements for appetizers served on a rotating platter with center flame for roasting. Paper wrapped chicken, fried shrimp, wonton, egg rol and B.B.Q. spareribs, beef sticks (Serves two or more)</div>
+					<div class="description">Assorted arrangements for appetizers served on a rotating platter with center flame for roasting. Paper wrapped chicken, fried shrimp, wonton, egg rol and B.B.Q. spareribs, beef sticks (Serves two or more)</div>
 				  </div>
-				  <div class="items">13.99</div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
+				  <div class="price">13.99</div>
 				</div>
-				<button class="collapsible">Soup</button>
-				<div class="menu">
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
+				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Soup</button>
+				<div class="menu" id="soup">
+				  <div class="items">15. Egg Flower Soup</div>
+				  <div class="price">(S) 6.50 (L) 10.25</div>
+				  <div class="items">15A. Vegetable Soup</div>
+				  <div class="price">(S) 6.50 (L) 10.25</div>
+				  <div class="items">16. Hot and Sour Soup</div>
+				  <div class="price">(S) 6.95 (L) 11.25</div>
+				  <div class="items">17. West Lake Soup</div>
+				  <div class="price">(S) 6.95 (L) 11.25</div>
+				  <div class="items">18. Seaweed Egg Flour Soup</div>
+				  <div class="price">(S) 6.95 (L) 11.25</div>
+				  <div class="items">19. Assorted Corn with Chicken Soup</div>
+				  <div class="price">(S) 6.95 (L) 11.25</div>
+				  <div class="items">20. Wor Won Tom Soup</div>
+				  <div class="price">(S) 7.50 (L) 11.50</div>
+				  <div class="items">21. Three Flavor Sizzling Rice Soup</div>
+				  <div class="price">(S) 7.50 (L) 11.50</div>
+				  <div class="items">22. Three Flavor Bean Curd Soup</div>
+				  <div class="price">(S) 7.50 (L) 11.50</div>
 				</div>
-				<button class="collapsible">Seafood</button>
-				<div class="menu">
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
-				  <div class="items"></div>
+				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Seafood</button>
+				<div class="menu" id="seafood">
+				  <div class="items">23. Prawn with Spicy Salt (with shell)</div>
+				  <div class="price">13.95</div>
+				  <div class="items">24. Kung Pao Shrimp</div>
+				  <div class="price">13.50</div>
+				  <div class="items">25. Shrimp with Snow Peas</div>
+				  <div class="price">13.50</div>
+				  
+				  
+				  <div class="items">17. West Lake Soup</div>
+				  <div class="price">(S) 6.95 (L) 11.25</div>
+				  <div class="items">18. Seaweed Egg Flour Soup</div>
+				  <div class="price">(S) 6.95 (L) 11.25</div>
+				  <div class="items">19. Assorted Corn with Chicken Soup</div>
+				  <div class="price">(S) 6.95 (L) 11.25</div>
+				  <div class="items">20. Wor Won Tom Soup</div>
+				  <div class="price">(S) 7.50 (L) 11.50</div>
+				  <div class="items">21. Three Flavor Sizzling Rice Soup</div>
+				  <div class="price">(S) 7.50 (L) 11.50</div>
+				  <div class="items">22. Three Flavor Bean Curd Soup</div>
+				  <div class="price">(S) 7.50 (L) 11.50</div>
 				</div>
-				<button class="collapsible">Beef</button>
-				<div class="menu">
+				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Beef</button>
+				<div class="menu" id="beef">
 				  <div class="items"></div>
 				  <div class="items"></div>
 				  <div class="items"></div>
@@ -133,8 +127,8 @@
 				  <div class="items"></div>
 				  <div class="items"></div>
 				</div>
-				<button class="collapsible">Pork</button>
-				<div class="menu">
+				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Pork</button>
+				<div class="menu" id="pork">
 				  <div class="items"></div>
 				  <div class="items"></div>
 				  <div class="items"></div>
@@ -159,43 +153,44 @@
 				  <div class="items"></div>
 				  <div class="items"></div>
 				  <div class="items"></div>
+				</div>
+				<button class="collapsible" onmouseover="hover(this)" onmouseout="nohover(this)">Chicken</button>
+				<div class="menu" id="chicken">
+				  <div class="items">words</div>
 				</div>
 				</div>
 				<div class="list">
-				<button class="collapsible">Chicken</button>
-				<div class="menu">
+				
+				<button class="collapsible" onmouseover="hover(this)" onmouseout="nohover(this)">Vegtables</button>
+				<div class="menu" id="veg">
 				  <div class="items">words</div>
 				</div>
-				<button class="collapsible">Vegtables</button>
-				<div class="menu">
+				<button class="collapsible" onmouseover="hover(this)" onmouseout="nohover(this)">Chow Mein</button>
+				<div class="menu" id="chow">
 				  <div class="items">words</div>
 				</div>
-				<button class="collapsible">Chow Mein</button>
-				<div class="menu">
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Fried Rice</button>
+				<div class="menu" id="rice">
 				  <div class="items">words</div>
 				</div>
-				<button class="collapsible">Fried Rice</button>
-				<div class="menu">
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Egg Foo Young</button>
+				<div class="menu" id="egg">
 				  <div class="items">words</div>
 				</div>
-				<button class="collapsible">Egg Foo Young</button>
-				<div class="menu">
+				<button class="collapsible" onmouseover="hover(this)" onmouseout="nohover(this)">Chop Suey</button>
+				<div class="menu" id="chop">
 				  <div class="items">words</div>
 				</div>
-				<button class="collapsible">Chop Suey</button>
-				<div class="menu">
+				<button class="collapsible" onmouseover="hover(this)" onmouseout="nohover(this)">Soup Noodles</button>
+				<div class="menu" id="noodle">
 				  <div class="items">words</div>
 				</div>
-				<button class="collapsible">Soup Noodles</button>
-				<div class="menu">
+				<button class="collapsible" onmouseover="hover(this)" onmouseout="nohover(this)">Panda Special</button>
+				<div class="menu" id="panda">
 				  <div class="items">words</div>
 				</div>
-				<button class="collapsible">Panda Special</button>
-				<div class="menu">
-				  <div class="items">words</div>
-				</div>
-				<button class="collapsible">Drinks</button>
-				<div class="menu">
+				<button class="collapsible" onmouseover="hover(this)" onmouseout="nohover(this)">Drinks</button>
+				<div class="menu" id="drinks">
 				  <div class="items">words</div>
 				</div>
 				</div>
