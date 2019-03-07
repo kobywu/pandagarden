@@ -88,11 +88,11 @@ body{
 }
 .items{
 	font-size:20px;
-	width:70%;
+	width:75%;
 }
 .price{
 	font-size:20px;
-	width:30%;
+	width:25%;
 }
 .collapsible:after {
   content: '\002B';
