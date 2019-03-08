@@ -96,14 +96,17 @@ body{
 }
 
 .collapsible:after {
-  content: '\002B';
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
   color: black;
   font-weight: bold;
+  color: white;
   float: right;
   margin-left: 5px;
 }
+
 .active:after {
-  content: "\2212";
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 .hovereffect {
 	background-color:red;
