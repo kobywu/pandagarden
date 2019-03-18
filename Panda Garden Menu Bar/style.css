@@ -90,7 +90,8 @@ body {
 
 div.container4 {
     height: 60px;
-    position: relative;
+	width: 100%;
+    position: fixed;
 	display:flex;
 	justify-content: center;
 }
