@@ -1,0 +1,39 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.slider {
+	width: 100%;
+	height: 40%;
+	margin: 2em auto;	
+}
+
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.slider-wrapper {
+	width: 80%;
+	height: 100%;
+	position: relative;
+}
+
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slide {
+	float: left;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
