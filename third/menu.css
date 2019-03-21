@@ -3,7 +3,6 @@ body{
 	padding:0;
 	border:0;
 	background-color:#EBD6C5;
-	font-family: Arial, Helvetica, sans-serif;
 }
 .tab-bar{
 	width:100%;
@@ -126,112 +125,6 @@ body{
 .description{
 	font-size:12px;
 }
-
-
-
-
-#navbar {
-  overflow: hidden;
-  background-color: #8FBC8F;
-}
-
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 80%;
-}
-
-#navbar a:hover {
-  background-color: #FFE4E1;
-  color: black;
-}
-
-#navbar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #8FBC8F;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 75%;
-}
-
-.navbar a:hover {
-  background: #f1f1f1;
-  color: black;
-}
-
-.navbar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.main {
-  padding: 16px;
-  margin-bottom: 30px;
-}
-
-div.container4 {
-    height: 60px;
-	width: 100%;
-    position: fixed;
-	display:flex;
-	justify-content: center;
-}
-div.container4 p {
-    margin: 0;
-    background: yellow;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-
-.topnav-right {
-  float: right;
-  color: #f2f2f2;
-}
-
-.topnav a:hover {
-  background: #f1f1f1;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-
 @media screen and (max-width:649px){
 	.sideImg{
 		display:none;
