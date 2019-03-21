@@ -193,6 +193,7 @@ body {
   text-decoration: none;
   font-size: 100%;
   border:7px #8FBC8F solid;
+  width: 10%;
 }
 
 .navbar a:hover {
