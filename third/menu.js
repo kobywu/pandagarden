@@ -17,9 +17,11 @@ for (i = 0; i < coll.length; i++) {
 function hover(el){
 	el.classList.add("hovereffect");
 }
+
 function nohover(el){
 	el.classList.remove("hovereffect");
 }
+
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
