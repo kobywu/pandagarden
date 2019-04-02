@@ -1,28 +1,84 @@
-body{
+body {
 	margin:0;
 	padding:0;
 	border:0;
 	background-color:#EBD6C5;
+	font-size: 28px;
+	background-color:#EBD6C5;
+	font-family: 'Handlee', cursive;
 }
+::-webkit-scrollbar {
+display: none;
+}
+.empty {
+	height: 18%;
+	width:  100%;	
+}
+.empty1 {
+	height: 3%;
+	width:  100%;	
+}
+.empty2{
+	height:3000px;
+	width:100%;
+}
+.slider {
+	width: 100%;
+	height: 40%;
+
+}
+
+.restrict-img-size {
+	height: 100%;
+}
+
+.slider-wrapper {
+	display: flex;
+	width: 80%;
+	height: 100%;
+	position: relative;
+}
+
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slide {
+	height: 100%;
+	position: absolute;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
 .center-content {
 	display:flex;
 	align-items: center;
 	justify-content: center;
-	text-align:center;
 }
+
 .slideshow{
 	width:100%;
 	height:40%;
 }
+
+/*koby's code start*/
 .container{
 	width:100%;
 	height:50%;
 	display:flex;
 }
+
 .sideImg{
 	width:20%;
 	height:100%;
 }
+
 .content{
 	display:flex;
 	flex-wrap:wrap;
@@ -34,7 +90,7 @@ body{
 	height:60%;
 	background-color:white;
 }
-.map{
+.map {
 	width:100%;
 	height: 40%;
 }
@@ -59,7 +115,6 @@ body{
 .collapsible {
   background-color: white;
   color: black;
-  font-family:"Lucida Console";
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -69,21 +124,23 @@ body{
   font-size: 25px;
   font-weight:bold;
   height: calc(100% / 8);
-
+  font-family: 'Handlee', cursive;
 }
-.list{
+
+.list {
 	width:50%;
 }
-.items{
+.items {
 	font-size:20px;
 	width:calc(75% - 10px);
 	border-left: 10px solid  #f1f1f1;
+	font-style: italic;
 }
 .price{
 	font-size:20px;
 	width:25%;
+	font-style: italic;
 }
-
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
@@ -93,12 +150,11 @@ body{
   float: right;
   margin-left: 5px;
 }
-
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 .hovereffect {
-	background-color:red;
+	background-color:#54894d;
 }
 .menu {
   max-height: 0;
@@ -112,6 +168,7 @@ body{
 .description{
 	font-size:12px;
 }
+
 @media screen and (max-width:649px){
 	.sideImg{
 		display:none;
@@ -120,6 +177,7 @@ body{
 		width:100%;
 	}
 }
+
 @media screen and (min-width:650px) and (max-width:1100px){
 	.tabs, .logo{
 		width: 20%;
@@ -131,15 +189,13 @@ body{
 		width:100%;
 	}
 }
-body {
-  margin: 0;
-  font-size: 28px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
+/*lili code*/
 
 #navbar {
+	z-index: 2;
   overflow: hidden;
-  background-color: #54894d;
+  background-color: #8FBC8F;
 }
 
 #navbar a {
@@ -155,11 +211,9 @@ body {
   width:10%;
 }
 
-#navbar a:hover {
-  background-color: #FFE4E1;
-  color: black;
+.tabhover {
+	background-color:#54894d;
 }
-
 #navbar a.active {
   background-color: #4CAF50;
   color: white;
@@ -178,10 +232,11 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #54894d;
+  background-color: #8FBC8F;
   position: fixed;
   bottom: 0;
   width: 100%;
+  height:5%;
 }
 
 .navbar a {
@@ -193,13 +248,7 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 100%;
-  border:7px #54894d solid;
-  
-}
-
-.navbar a:hover {
-  background: #f1f1f1;
-  color: black;
+  border:7px #8FBC8F solid;
 }
 
 .navbar a.active {
@@ -216,7 +265,7 @@ div.container4 {
     height: 15%;
 	width: 100%;
     position: fixed;
-	display:flex;
+	display: flex;
 	justify-content: center;
 	text-align: center;
 }
@@ -244,8 +293,4 @@ div.container4 p {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
-}
-
-.restrict-img-size {
-	height:100%;
 }
