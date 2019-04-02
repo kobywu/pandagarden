@@ -6,26 +6,36 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Menu</title>
-		<link rel="stylesheet" href="menu.css" />
+		<link rel="stylesheet" href="style.css" />
 	</head>
 
 	<!-- the <body> section is for all the content that is actually displayed on the page -->
 	<body>
 		<div id="navbar" class="container4">
-			<a href="javascript:void(0)">Menu Page</a>
-			<a href="javascript:void(0)">Home Page</a>
-  			<a href="javascript:void(0)"><img class="restrict-img-size logo" src="PandaGardenLogo.PNG"></a>
-  			<a href="javascript:void(0)">Order</a>
-  			<a href="javascript:void(0)">About Us</a>
+			<a href="javascript:void(0)" onmouseover="tabhover(this)" onmouseout="none(this)">Menu Page</a>
+			<a href="javascript:void(0)" onmouseover="tabhover(this)" onmouseout="none(this)">Home Page</a>
+  			<a href="javascript:void(0)" ><img class="restrict-img-size logo" src="PandaGardenLogo.PNG"></a>
+  			<a href="javascript:void(0)" onmouseover="tabhover(this)" onmouseout="none(this)">Order</a>
+  			<a href="javascript:void(0)" onmouseover="tabhover(this)" onmouseout="none(this)">About Us</a>
 		</div>
-		<div class="heading center-content">
-			<div class="title"></div>
-		</div>
+		<div class="empty"></div>
+		
+		<div class="slider center-content" id="main-slider"><!-- outermost container element -->
+			<div class="slider-wrapper center-content restrict-img-size"><!-- innermost wrapper element -->
+				<img src="friedrice1.png" alt="First" class="slide" /><!-- slides -->
+				<img src="pandaspecial1.png" alt="Second" class="slide" />
+				<img src="soupnoddle1.png" alt="Third" class="slide" />
+				<img src="seafood.jpg" alt="four" class="slide" />
+				<img src="EggFooYoung1.png" alt="five" class="slide" />
+				<img src="chowmein1.png" alt="six" class="slide" />
+			</div>
+		</div>	
+		<div class="empty1"></div>
 		<div class="container">
 			<div class="sideImg"></div>
 			<div class="content">
 			<div class="list">
-				<button class="collapsible" onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Combination Plates</button>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Combination Plates</button>
 				<div class="menu" id="comboPlate">
 				  <div class="items">1. Chicken Chow Mein, Egg Roll, Fried Rice and Fortune Cookie</div>
 				  <div class="price">7.25 </div>
@@ -52,7 +62,7 @@
 				  </div>
 				  <div class="price">19.99 (per person)</div>
 				</div>
-				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Special Lucheon</button>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Special Lucheon</button>
 				<div class="menu" id="chef">
 				  <div class="items">7 days a week until 3:00pm</div>
 				  <div class="items">Includes: Daily Soup, Egg Roll or Fried Shrimp, Fried Qonton and Fried Rice or Steamed Rice</div>
@@ -116,7 +126,7 @@
 				  <div class="items">30. Spicy Salt Shrimp 辣鹽蝦</div>
 				  <div class="price">8.50</div>
 				</div>
-				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Appetizers</button>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Appetizers</button>
 				<div class="menu" id="apps">
 				  <div class="items">7. Egg Roll (2) 春卷</div>
 				  <div class="price">2.50</div>
@@ -139,7 +149,7 @@
 				  </div>
 				  <div class="price">13.99</div>
 				</div>
-				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Soup</button>
+				<button class="collapsible" onmouseover="hover(this)" onmouseout="nohover(this)">Soup</button>
 				<div class="menu" id="soup">
 				  <div class="items">15. Egg Flower Soup 蛋花湯</div>
 				  <div class="price">(S) 6.50 (L) 10.25</div>
@@ -160,7 +170,7 @@
 				  <div class="items">22. Three Flavor Bean Curd Soup 三味豆腐湯</div>
 				  <div class="price">(S) 7.50 (L) 11.50</div>
 				</div>
-				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Seafood</button>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Seafood</button>
 				<div class="menu" id="seafood">
 				  <div class="items">23. Prawn with Spicy Salt (with shell) 蝦仁辣鹽</div>
 				  <div class="price">13.95</div>
@@ -191,7 +201,7 @@
 				  <div class="items">36. Sweet and Sour Fish Fillet 糖醋魚片</div>
 				  <div class="price">14.50</div>
 				</div>
-				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Beef</button>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Beef</button>
 				<div class="menu" id="beef">
 				  <div class="items">37. Beef with Broccoli 西蘭花牛肉</div>
 				  <div class="price">12.50</div>
@@ -214,7 +224,7 @@
 				  <div class="items">45. Fillet Steak with Chef's Special Sauce (Cantonese Style) 里脊牛排配廚師特製的醬汁</div>
 				  <div class="price">13.50</div>
 				</div>
-				<button class="collapsible" onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Pork</button>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Pork</button>
 				<div class="menu" id="comboPlate">
 				  <div class="items">46. Moo-Shu Pork 那是豬肉</div>
 				  <div class="price">(2) 6.95 (4) 12.50 </div>
@@ -229,7 +239,7 @@
 				  <div class="items">51. Spicy Salt Pork Chop 辣鹽豬排</div>
 				  <div class="price">13.50</div>
 				</div>
-				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Chicken</button>
+				<button class="collapsible"   onmouseover="hover(this)" onmouseout="nohover(this)">Chicken</button>
 				<div class="menu" id="chef">
 				  <div class="items">52. Aromatic Chicken 芳香雞肉</div>
 				  <div class="price">11.50</div>
@@ -255,7 +265,7 @@
 			</div>
 			
 			<div class="list">
-				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Vegetable</button>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Vegetable</button>
 				<div class="menu" id="apps">
 				  <div class="items">60. Satueed Broccoli 飽和的西蘭花</div>
 				  <div class="price">9.50</div>
@@ -268,7 +278,7 @@
 				  <div class="items">64. Bean Curd with Brown Curd 豆腐與皇冠凝乳</div>
 				  <div class="price">9.50</div>
 				</div>
-				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Chow Mein</button>
+				<button class="collapsible"onmouseover="hover(this)" onmouseout="nohover(this)">Chow Mein</button>
 				<div class="menu" id="soup">
 				  <div class="items">65. Panda Special Chow Mein 熊貓特別炒麵</div>
 				  <div class="price">9.75</div>
@@ -285,7 +295,7 @@
 				  <div class="items">71. Beef with Fried Rice Noodles 牛肉配炒米粉</div>
 				  <div class="price">11.50</div>
 				</div>
-				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Fried Rice</button>
+				<button class="collapsible" onmouseover="hover(this)" onmouseout="nohover(this)">Fried Rice</button>
 				<div class="menu" id="seafood">
 				  <div class="items">72. Panda Special Fried Rice 熊貓特炒飯</div>
 				  <div class="price">9.75</div>
@@ -302,7 +312,7 @@
 				  <div class="items">78. Steamed Rice 蒸米飯</div>
 				  <div class="price">4.50</div>
 				</div>
-				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Egg Foo Young</button>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Egg Foo Young</button>
 				<div class="menu" id="beef">
 				  <div class="items">79. Shrimp Egg Foo Young 蝦蛋福年輕</div>
 				  <div class="price">10.50</div>
@@ -313,7 +323,7 @@
 				  <div class="items">82. Beef Egg Foo Young 牛肉蛋福年輕</div>
 				  <div class="price">9.75</div>
 				</div>
-				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Chop Suey</button>
+				<button class="collapsible" onmouseover="hover(this)" onmouseout="nohover(this)">Chop Suey</button>
 				<div class="menu" id="beef">
 				  <div class="items">83. Panda Special Chop Suey 熊貓特別雜碎</div>
 				  <div class="price">9.75</div>
@@ -328,7 +338,7 @@
 				  <div class="items">88. Vegetable Chop Suey 蔬菜雜碎</div>
 				  <div class="price">9.25</div>
 				</div>
-				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Soup Noodles</button>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Soup Noodles</button>
 				<div class="menu" id="beef">
 				 <div class="items">89. Three Flavor Wonton Noodles 三味餛飩面</div>
 				  <div class="price">8.50</div>
@@ -339,7 +349,7 @@
 				  <div class="items">92. Shredded Pork with Pickled Noodles 醃製豬肉醃製麵條</div>
 				  <div class="price">8.25</div>
 				</div>
-				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Panda Special</button>
+				<button class="collapsible"   onmouseover="hover(this)" onmouseout="nohover(this)">Panda Special</button>
 				<div class="menu" id="beef">
 				  <div class="items">93. Shrimp with Walnut 核桃仁蝦</div>
 				  <div class="price">14.95</div>
@@ -358,7 +368,7 @@
 				  <div class="items">100. Panda Special Hot Pot 熊貓特別火鍋</div>
 				  <div class="price">13.50</div>
 				</div>
-				<button class="collapsible"  onclick="show()" onmouseover="hover(this)" onmouseout="nohover(this)">Drinks</button>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Drinks</button>
 				<div class="menu" id="beef">
 				 <div class="items">Orange Juice</div>
 				  <div class="price">1.95</div>
@@ -393,15 +403,16 @@
 			</div>
 			<div class="sideImg"></div>
 		</div>
+		<div class="empty2"></div>
 			<div class="navbar">
- 				<a href="#home">Grubhub</a>
-  				<a href="#news">DoorDash</a>
+ 				<a href="#home" onmouseover="tabhover(this)" onmouseout="none(this)">Grubhub</a>
+  				<a href="#news" onmouseover="tabhover(this)" onmouseout="none(this)">DoorDash</a>
  			<div class="topnav-right">
-    				<a href="#search">4101 Atlantic Blvd., Long Beach,CA 90807</a>
-    				<a href="#about">(562)-490-9583</a>
+    				<a href="#search" onmouseover="tabhover(this)" onmouseout="none(this)">4101 Atlantic Blvd, Long Beach,CA 90807</a>
+    				<a href="#about" onmouseover="tabhover(this)" onmouseout="none(this)">(562)-490-9583</a>
   			</div>
 		</div>
-		<script src="menu.js"></script>
+		<script src="script.js"></script>
 
 	</body>
 </html>
