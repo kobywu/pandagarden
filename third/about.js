@@ -11,3 +11,16 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+function hover(el){
+	el.classList.add("hovereffect");
+}
+function nohover(el){
+	el.classList.remove("hovereffect");
+}
+function tabhover(el){
+	el.classList.add("tabhover");
+}
+function none(el){
+	el.classList.remove("tabhover");
+}
