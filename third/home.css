@@ -1,28 +1,39 @@
 body {
-	margin: 0;
-	padding: 0;
-	 font-size: 28px;
+	margin:0;
+	padding:0;
+	border:0;
 	background-color:#EBD6C5;
-  	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	background-color:#EBD6C5;
+	font-family: 'Handlee', cursive;
 }
-
+::-webkit-scrollbar {
+display: none;
+}
 .empty {
-	display: block;
-	height: 15%;
+	height: 18%;
 	width:  100%;	
+}
+.empty1 {
+	height: 3%;
+	width:  100%;	
+}
+.empty2{
+	height:3000px;
+	width:100%;
 }
 .slider {
 	width: 100%;
 	height: 40%;
-	margin: 2em auto;	
+
 }
 
 .restrict-img-size {
-	max-height: 100%;
-	max-width: 100%;
+	height: 100%;
 }
 
 .slider-wrapper {
+	display: flex;
 	width: 80%;
 	height: 100%;
 	position: relative;
@@ -35,8 +46,6 @@ body {
 }
 
 .slide {
-	float: left;
-	width: 100%;
 	height: 100%;
 	position: absolute;
 	opacity: 0;
@@ -47,7 +56,80 @@ body {
 	opacity: 1;
 }
 
+.center-content {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slideshow{
+	width:100%;
+	height:40%;
+}
+
+/*koby's code start*/
+.container{
+	width:100%;
+	height:50%;
+	display:flex;
+}
+
+.sideImg{
+	width:20%;
+	height:100%;
+}
+
+.content{
+	display:flex;
+	flex-wrap:wrap;
+	width:70%;
+	height:100%;
+}
+
+.bottom-bar{
+	width:100%;
+	height:10%;
+}
+.heading{
+	width:100%;
+	height:40%;
+}
+
+.about{
+	width:100%;
+	height:100%;
+}
+
+.hovereffect {
+	background-color:#54894d;
+}
+
+
+@media screen and (max-width:649px){
+	.sideImg{
+		display:none;
+	}
+	.content{
+		width:100%;
+	}
+}
+
+@media screen and (min-width:650px) and (max-width:1100px){
+	.tabs, .logo{
+		width: 20%;
+	}
+	.sideImg{
+		display:none;
+	}
+	.content{
+		width:100%;
+	}
+}
+
+/*lili code*/
+
 #navbar {
+	z-index: 2;
   overflow: hidden;
   background-color: #8FBC8F;
 }
@@ -62,13 +144,12 @@ body {
   padding: 20px 22px;
   text-decoration: none;
   font-size: 90%;
+  width:10%;
 }
 
-#navbar a:hover {
-  background-color: #FFE4E1;
-  color: black;
+.tabhover {
+	background-color:#54894d;
 }
-
 #navbar a.active {
   background-color: #4CAF50;
   color: white;
@@ -91,6 +172,7 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
+  height:5%;
 }
 
 .navbar a {
@@ -103,11 +185,6 @@ body {
   text-decoration: none;
   font-size: 100%;
   border:7px #8FBC8F solid;
-}
-
-.navbar a:hover {
-  background: #f1f1f1;
-  color: black;
 }
 
 .navbar a.active {
@@ -124,7 +201,7 @@ div.container4 {
     height: 15%;
 	width: 100%;
     position: fixed;
-	display:flex;
+	display: flex;
 	justify-content: center;
 	text-align: center;
 }
@@ -152,8 +229,4 @@ div.container4 p {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
-}
-
-.restrict-img-size {
-	height:100%;
 }
