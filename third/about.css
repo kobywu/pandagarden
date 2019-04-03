@@ -138,3 +138,8 @@ div.a {
   text-align: center;
   font-family: Handlee;
 }
+
+.title{
+	font-size: 50px;
+	text-decoration: underline;
+}
