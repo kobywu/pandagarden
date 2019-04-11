@@ -18,10 +18,11 @@ display: none;
 	height: 3%;
 	width:  100%;	
 }
-.empty2{
+.empty2 {
 	height:3000px;
 	width:100%;
 }
+
 .slider {
 	width: 100%;
 	height: 40%;
@@ -74,12 +75,12 @@ display: none;
 	display:flex;
 }
 
-.sideImg{
+.sideImg {
 	width:20%;
 	height:100%;
 }
 
-.content{
+.content {
 	display:flex;
 	flex-wrap:wrap;
 	width:70%;
@@ -94,11 +95,11 @@ display: none;
 	width:100%;
 	height: 40%;
 }
-.bottom-bar{
+.bottom-bar {
 	width:100%;
 	height:10%;
 }
-.heading{
+.heading {
 	width:100%;
 	height:40%;
 }
@@ -165,7 +166,7 @@ display: none;
   display:flex;
   flex-wrap:wrap;
 }
-.description{
+.description {
 	font-size:12px;
 }
 
