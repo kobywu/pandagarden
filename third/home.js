@@ -1,5 +1,3 @@
-
-
 (function() {
 	
 	function Slideshow( element ) {
@@ -40,7 +38,7 @@
 				}
 				self._slideTo( self.index );
 				
-			}, 5000);
+			}, 3000);
 		},
 		stopStart: function() {
 			var self = this;
