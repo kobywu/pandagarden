@@ -1,4 +1,22 @@
+/*tab bar*/
+.tabhover {
+	background-color:#54894d;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
 #rc_logo {
  left: 30px;
  padding: 22px;
