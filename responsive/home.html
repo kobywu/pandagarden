@@ -12,12 +12,16 @@
 
 	<!-- the <body> section is for all the content that is actually displayed on the page -->
 	<body>
-	<div id="navbar" class="container4">
-		<a href="https://kobywu.github.io/pandagarden/responsive/menu.html" onmouseover="tabhover(this)" onmouseout="none(this)">Menu Page</a>
-		<a href="https://kobywu.github.io/pandagarden/responsive/home.html" onmouseover="tabhover(this)" onmouseout="none(this)">Home Page</a>
-  		<a  ><img class="restrict-img-size logo" src="PandaGardenLogo.PNG"></a>
-  		<a href="javascript:void(0)" onmouseover="tabhover(this)" onmouseout="none(this)">Order</a>
-  		<a href="https://kobywu.github.io/pandagarden/responsive/about.html" onmouseover="tabhover(this)" onmouseout="none(this)">About Us</a>
+	<div id="rc_logo">
+		<a href="#home" title="Logo">LOGO</a> <!-- Swap this placeholder out for your logo image -->
+	</div>  
+
+	<div class="rc_nav" id="centered_nav">
+		<a href="https://kobywu.github.io/pandagarden/responsive/home.html" onmouseover="tabhover(this)" onmouseout="none(this)" title="Home">Home</a>
+		<a href="#order" onmouseover="tabhover(this)" onmouseout="none(this)" title="order">Order</a>
+		<a href="https://kobywu.github.io/pandagarden/responsive/about.html" onmouseover="tabhover(this)" onmouseout="none(this)" title="About">About</a>
+		<a href="https://kobywu.github.io/pandagarden/responsive/menu.html" onmouseover="tabhover(this)" onmouseout="none(this)" title="Menu">Menu</a>
+		<a href="javascript:void(0);" onmouseover="tabhover(this)" onmouseout="none(this)" title="Menu" style="font-size:18px;" class="icon" onclick="topbar()">&#9776;</a>
 	</div>
 	<div class="empty">
 	</div>
@@ -42,13 +46,11 @@
 		</div>
 		<div class="bottom-bar"></div>
 		<script src="home.js"></script>
-		<div class="navbar">
- 			<a href="https://postmates.com/merchant/panda-garden-long-beach" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)">PostMates</a>
-  			<a href="https://www.doordash.com/store/panda-garden-long-beach-111859/" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)">DoorDash</a>
-			<div class="topnav-right">
-    			<a href="https://goo.gl/maps/JnuBqELxYJS2" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)">4101 Atlantic Blvd, Long Beach,CA 90807</a>
-    			<a href="mailto:pandagardenlongbeach@gmail.com" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)">pandagardenlongbeach@gmail.com</a>
-			</div>
+		<div class="navbar" id="bottombar">
+ 			<a href="https://postmates.com/merchant/panda-garden-long-beach" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="left">PostMates</a>
+  			<a href="https://www.doordash.com/store/panda-garden-long-beach-111859/" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="left">DoorDash</a>
+    		<a href="https://goo.gl/maps/JnuBqELxYJS2" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="right">4101 Atlantic Blvd, Long Beach,CA 90807</a>
+    		<a href="mailto:pandagardenlongbeach@gmail.com" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="right">pandagardenlongbeach@gmail.com</a>
 		</div>
 	</body>
 </html>
