@@ -1,8 +1,7 @@
 window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("navbar");
+var navbar = document.getElementById("centered_nav");
 var sticky = navbar.offsetTop;
-var x = document.getElementById("navbar");
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
@@ -10,6 +9,14 @@ function myFunction() {
   } else {
     navbar.classList.remove("sticky");
   }
+}
+function topbar() {
+    var x = document.getElementById("centered_nav");
+    if (x.className === "rc_nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "rc_nav";
+    }
 }
 
 function hover(el){
