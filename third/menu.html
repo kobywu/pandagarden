@@ -6,19 +6,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Menu</title>
 		<link rel="stylesheet" href="menu.css" />
+		<link rel="stylesheet" href="all.css" />
 	</head>
 
-	<!-- the <body> section is for all the content that is actually displayed on the page -->
+	
 	<body>
-		<div id="navbar" class="container4">
-			<a href="javascript:void(0)" onmouseover="tabhover(this)" onmouseout="none(this)">Menu Page</a>
-			<a href="javascript:void(0)" onmouseover="tabhover(this)" onmouseout="none(this)">Home Page</a>
-  			<a href="javascript:void(0)" ><img class="restrict-img-size logo" src="PandaGardenLogo.PNG"></a>
-  			<a href="javascript:void(0)" onmouseover="tabhover(this)" onmouseout="none(this)">Order</a>
-  			<a href="javascript:void(0)" onmouseover="tabhover(this)" onmouseout="none(this)">About Us</a>
-		</div>
+	<div id="rc_logo">
+		<img class="restrict-img-size" src="images/PandaGardenLogo.PNG"><!-- Swap this placeholder out for your logo image -->
+	</div>  
+
+	<div class="rc_nav" id="centered_nav">
+		<a href="https://kobywu.github.io/pandagarden/responsive/home.html" onmouseover="tabhover(this)" onmouseout="none(this)" title="Home">Home</a>
+		<a href="#order" onmouseover="tabhover(this)" onmouseout="none(this)" title="order">Order</a>
+		<a href="https://kobywu.github.io/pandagarden/responsive/about.html" onmouseover="tabhover(this)" onmouseout="none(this)" title="About">About</a>
+		<a href="https://kobywu.github.io/pandagarden/responsive/menu.html" onmouseover="tabhover(this)" onmouseout="none(this)" title="Menu">Menu</a>
+		<a href="javascript:void(0);" onmouseover="tabhover(this)" onmouseout="none(this)" title="Menu" style="font-size:18px;" class="icon" onclick="topbar()">&#9776;</a>
+	</div>
 		<div class="empty"></div>
-		
 		<div class="slider center-content" id="main-slider"><!-- outermost container element -->
 			<div class="slider-wrapper center-content restrict-img-size"><!-- innermost wrapper element -->
 				<img src="stickers.png" alt="First" class="slide" /><!-- slides -->
@@ -31,7 +35,7 @@
 		</div>	
 		<div class="empty1"></div>
 		<div class="container">
-			<div class="sideImg"><img src="bamboo.jpg"/></div>
+			
 			<div class="content">
 			<div class="list">
 				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Combination Plates</button>
@@ -400,17 +404,12 @@
 				</div>
 			</div>
 			</div>
-			<div class="sideImg">
-			<img src="bamboo.jpg"/></div>
-		</div>
 		<div class="empty2"></div>
-			<div class="navbar">
- 				<a href="https://postmates.com/merchant/panda-garden-long-beach" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)">PostMates</a>
-  				<a href="https://www.doordash.com/store/panda-garden-long-beach-111859/" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)">DoorDash</a>
- 			<div class="topnav-right">
-    				<a href="https://goo.gl/maps/JnuBqELxYJS2" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)">4101 Atlantic Blvd, Long Beach,CA 90807</a>
-    				<a href="mailto:pandagardenlongbeach@gmail.com" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)">pandagardenlongbeach@gmail.com</a>
-  			</div>
+		<div class="navbar" id="bottombar">
+ 			<a href="https://postmates.com/merchant/panda-garden-long-beach" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="left">PostMates</a>
+  			<a href="https://www.doordash.com/store/panda-garden-long-beach-111859/" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="left">DoorDash</a>
+    		<a href="https://goo.gl/maps/JnuBqELxYJS2" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="right">4101 Atlantic Blvd, Long Beach,CA 90807</a>
+    		<a href="mailto:pandagardenlongbeach@gmail.com" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="right">pandagardenlongbeach@gmail.com</a>
 		</div>
 		<script src="menu.js"></script>
 

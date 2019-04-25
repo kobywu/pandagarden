@@ -1,12 +1,11 @@
 
 window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
+var navbar = document.getElementById("centered_nav");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+    navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
   }
@@ -105,4 +104,14 @@ function tabhover(el){
 }
 function none(el){
 	el.classList.remove("tabhover");
+}
+
+
+function topbar() {
+    var x = document.getElementById("centered_nav");
+    if (x.className === "rc_nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "rc_nav";
+    }
 }
