@@ -1,3 +1,25 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;
+	background-color:#EBD6C5;
+	font-size: 28px;
+	background-color:#EBD6C5;
+	font-family: 'Handlee', cursive;
+}
+::-webkit-scrollbar {
+display: none;
+}
+
+.center-content {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.restrict-img-size {
+	height: 100%;
+}
+
 /*tab bar*/
 .tabhover {
 	background-color:#54894d;
@@ -18,9 +40,12 @@
   margin-bottom: 30px;
 }
 #rc_logo {
- left: 40px;
+ 
  padding: 2px;
- position: absolute;
+ position: fixed;
+ left:40;
+ top:0;
+ z-index:9;
  color: #fff;
  font-size: 19px;
  text-decoration: none;
@@ -68,7 +93,7 @@ text-decoration: none;
     display: block;
     width: 60px;
   }
-  #rc_logo {
+ #rc_logo {
  height:70px;
  width:70px;
 }
@@ -87,7 +112,6 @@ text-decoration: none;
     display: block;
     text-align: center;
   }
-
 }
 
 
@@ -108,8 +132,7 @@ text-decoration: none;
   text-align: center;
   align-items:center;
   text-decoration: none;
-  padding-left:2px;
-  padding-right:2px;
+  padding: 2px 2px;
   margin-right: 8px;
   margin-left:8px;
   font-size: 90%;
@@ -128,9 +151,12 @@ float:right;
 @media screen and (max-width: 1220px) {
 	.navbar{
 	display:block;
-	height:15%;
+	height:17%;
 	}
 	.navbar a {
 	width:100%;
+	font-size: 15px;
+	margin:0;
 	}
+	
   }
