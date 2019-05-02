@@ -1,5 +1,11 @@
+body {
+  margin: 0;
+  font-size: 28px;
+  background-color: #EBD6C5;
+  font-family: Handlee, cursive;
+}
 
-.title{
+.title {
 	width:30%;
 	height: 40%;
 	font-size: 50px;
@@ -19,4 +25,305 @@ div.a {
   text-indent: 50px;
   text-align: center;
   font-family: Handlee, cursive;
+}
+
+.container {
+	text-align: center;
+	color: white;
+} 
+
+.pickdiv {
+position: relative;
+text-align: center;
+height: 40%;
+width: 100%;
+}
+
+ .container1 {
+display: flex;
+flex-wrap:wrap;
+height: 1200px;
+text-align: center;
+justify-content: center;
+width: 100%;	 
+ }
+ 
+ .emptybox {
+	height: 250%;
+	width: 100%;
+ }
+ 
+.box {
+	height: 40%;
+	width: 50%;
+}
+
+.centered {
+ font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #54894d;
+}
+
+.line {
+	 border-style: dotted;
+	 border-width: 8px;
+	 justify-content: center;
+	  border-color: #47874b;
+}
+
+.empty {
+	height: 60%;
+	width: 100%;
+}
+
+.empty1 {
+	height: 10%;
+	width: 50%;
+}
+
+.empty2 {
+	height: 10%;
+	width: 100%;
+}
+.empty3 {
+		height: 10%;
+		width: 100%;
+}
+
+#navbar a {
+  float: left;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+  font-size: 90%;
+  width: 10%;
+}
+
+#navbar a:hover {
+  background-color: #FFE4E1;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #54894d;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 100%;
+  border:7px #54894d solid;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+
+div.container4 {
+    height: 15%;
+	width: 100%;
+    position: fixed;
+	display:flex;
+	justify-content: center;
+	text-align: center;
+}
+p {
+	font-size: 28px;
+	color: white;
+	font-family: Handlee, cursive;
+}
+div.
+.topnav-right {
+  float: right;
+  color: #f2f2f2;
+}
+
+.topnav a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.restrict-img-size {
+	height:100%;
+}
+
+@media screen and (max-width:1100px) {
+  .container4, .navbar{
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+		
+.heading{
+	width:100%;
+	height:40%;
+}
+
+.center-content {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+	font-size: 50px;
+}
+
+div.a {
+  text-indent: 50px;
+  padding-right: 100px;
+  padding-left: 10px;
+  text-align: center;
+}
+.firstsection {
+		height: 100%;
+		width: 50%;
+		display: flex;
+}
+
+.text h1 {
+	height: 50%;
+	width: 50%;	
+	font-size: 40px;
+	font-style: italic;
+
+}
+div.b {
+	width:50%;
+	height: 50%;
+	display: flex;
+}
+
+.secondsection {
+	width:40%;
+	justify-content: left;
+	float: left;
+	display: flex;
+}
+	
+div.c {
+  justify-content: center;
+  text-align: center;
+   display: flex;
+}
+
+.img {
+	height: 600px;
+	width: 600px;	
+}
+
+.img1 {
+	height: 450px;
+	width: 450px;
+	border-radius: 50%;
+}
+
+
+.a h1 {
+	font-size: 40px;
+	line-height: 0px;
+	margin: 0;
+	text-align: center;
+	font-style: italic;
+}
+
+@media screen and (max-width: 550px) {
+	.container1 {
+		display: block;
+	}
+	
+	p {
+		font-size: 19px;
+	}
+	
+	.box {
+		width: 100%;
+	}
+	
+	.break {
+		height: 200px;
+		width: 100%;
+	}
+}
+
+
+
+@media screen  and (min-width: 551px) and (max-width: 951px) {
+	.container1 {
+		display: block;
+	}
+	p {
+		font-size: 22px;
+	}
+	.box {
+		width: 100%;
+	}
+	.break {
+		height: 200px;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 952px) and (max-width: 1600px){
+	.container1 {
+		display: block;
+	}
+	.box {
+		width: 100%;
+	}
+	.break {
+		height: 200px;
+		width: 100%;
+	}
 }
