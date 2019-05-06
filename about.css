@@ -43,11 +43,6 @@ justify-content: center;
 width: 100%;	 
  }
  
- .emptybox {
-	height: 250%;
-	width: 100%;
- }
- 
 .box {
 	height: 40%;
 	width: 50%;
@@ -72,7 +67,7 @@ width: 100%;
 }
 
 .empty {
-	height: 60%;
+	height: 500px;
 	width: 100%;
 }
 
