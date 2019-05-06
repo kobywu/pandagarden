@@ -1,0 +1,82 @@
+<!-- notice how both the opening <html> tag and the closing </html> tag are NOT indented so you can clearly see the start and end of the code -->
+<html>
+	
+	<!-- the <head> section is for all the information that is needed by the browser but does NOT show up on the page -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Home</title>
+		<link rel="stylesheet" href="home.css" />
+		<link rel="stylesheet" href="all.css" />
+	</head>
+
+	<!-- the <body> section is for all the content that is actually displayed on the page -->
+	<body>
+	<div id="rc_logo">
+		<img class="restrict-img-size" src="images/PandaGardenLogo.PNG"><!-- Swap this placeholder out for your logo image -->
+	</div> 
+
+	<div class="rc_nav" id="centered_nav">
+		<a href="https://kobywu.github.io/pandagarden/responsive/home.html" onmouseover="tabhover(this)" onmouseout="none(this)" title="Home" target="_blank">Home</a>
+		<a href="#order" onmouseover="tabhover(this)" onmouseout="none(this)" title="order" target="_blank">Order</a>
+		<a href="https://kobywu.github.io/pandagarden/responsive/about.html" onmouseover="tabhover(this)" onmouseout="none(this)" title="About" target="_blank">About</a>
+		<a href="https://kobywu.github.io/pandagarden/responsive/menu.html" onmouseover="tabhover(this)" onmouseout="none(this)" title="Menu" target="_blank">Menu</a>
+		<a href="javascript:void(0);" onmouseover="tabhover(this)" onmouseout="none(this)" title="Menu" style="font-size:18px;" class="icon" onclick="topbar()">&#9776;</a>
+	</div>
+	<div class="empty">
+	</div>
+	<div class="slider center-content" id="main-slider"><!-- outermost container element -->
+			<div class="slider-wrapper center-content restrict-img-size"><!-- innermost wrapper element -->
+				<img src="images/counter.png" alt="First" class="slide" /><!-- slides -->
+				<img src="images/dinner.png" alt="Second" class="slide" />
+				<img src="images/door.png" alt="Third" class="slide" />
+				<img src="images/fish.png" alt="four" class="slide" />
+				<img src="images/floor.png" alt="five" class="slide" />
+				<img src="images/panda.png" alt="six" class="slide" />
+				<img src="images/front.png" alt="seven" class="slide" />
+			</div>
+		</div>	
+		<br></br>
+		
+		<div class="content">
+			<div class="map center-content" id ="map"><iframe class="direction" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.2377111878363!2d-118.1874266844838!3d33.83197983675211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd339f26e08529%3A0x6c3cae516d7ab96!2sPanda+Garden!5e0!3m2!1sen!2sus!4v1556569027388!5m2!1sen!2sus" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+			<div class="info">
+				<div class= "holder">
+					<div class="a">
+						<h1><u>Opening Hours:</u></h1>
+					</div>
+					<ul class="list-style-1 ">
+						<li><b>Monday:</b> 11:00 am - 9:00 pm</li>
+						<li><b>Tuesday:</b> 11:00 am - 9:00 pm</li>
+						<li><b>Wednesday:</b> 11:00 am - 9:00 pm</li>
+						<li><b>Thursday:</b> 11:00 am - 9:00 pm</li>
+						<li><b>Friday:</b> 11:00 am - 9:00 pm</li>
+						<li><b>Saturday:</b> 11:00 am - 9:00 pm</li>
+						<li><b>Sunday:</b> 11:00 am - 9:00 pm</li>
+					</ul>
+					<div class="a">
+						<h1><u>Business Information:</u></h1>
+					</div>
+					<div class="info2">
+						<p>Accepts Reservations: Yes</p>
+						<p>Take-Out: Yes</p>
+						<p>Accepts Credit Cards: Yes</p>
+						<p>Good for Lunch and Dinner</p>
+						<p>Parking: Private Lot</p>
+						<p>Delivery: Yes</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="empty2"></div>
+		<div class="navbar" id="bottombar">
+ 			<a href="https://postmates.com/merchant/panda-garden-long-beach" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="left">PostMates</a>
+  			<a href="https://www.doordash.com/store/panda-garden-long-beach-111859/" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="left">DoorDash</a>
+    		<a href="https://goo.gl/maps/JnuBqELxYJS2" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="right">4101 Atlantic Blvd, Long Beach,CA 90807</a>
+    		<a href="mailto:pandagardenlongbeach@gmail.com" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="right">pandagardenlongbeach@gmail.com</a>
+		</div>
+		<script src="home.js"></script>
+		<script src="all.js"></script>
+	</body>
+</html>

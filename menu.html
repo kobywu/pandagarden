@@ -1,0 +1,420 @@
+<html>
+	
+	<!-- the <head> section is for all the information that is needed by the browser but does NOT show up on the page -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Menu</title>
+		<link rel="stylesheet" href="menu.css" />
+		<link rel="stylesheet" href="all.css" />
+	</head>
+
+	
+	<body>
+	<div id="rc_logo">
+		<img class="restrict-img-size" src="images/PandaGardenLogo.PNG"><!-- Swap this placeholder out for your logo image -->
+	</div>  
+
+	<div class="rc_nav" id="centered_nav">
+		<a href="https://kobywu.github.io/pandagarden/responsive/home.html" onmouseover="tabhover(this)" onmouseout="none(this)" title="Home">Home</a>
+		<a href="#order" onmouseover="tabhover(this)" onmouseout="none(this)" title="order">Order</a>
+		<a href="https://kobywu.github.io/pandagarden/responsive/about.html" onmouseover="tabhover(this)" onmouseout="none(this)" title="About">Our Story</a>
+		<a href="https://kobywu.github.io/pandagarden/responsive/menu.html" onmouseover="tabhover(this)" onmouseout="none(this)" title="Menu">Menu</a>
+		<a href="javascript:void(0);" onmouseover="tabhover(this)" onmouseout="none(this)" title="Menu" style="font-size:18px;" class="icon" onclick="topbar()">&#9776;</a>
+	</div>
+		<div class="empty"></div>
+		<div class="slider center-content" id="main-slider"><!-- outermost container element -->
+			<div class="slider-wrapper center-content restrict-img-size"><!-- innermost wrapper element -->
+				<img src="images/beef.png" alt="First" class="slide" /><!-- slides -->
+				<img src="images/chowmein.png" alt="Second" class="slide" />
+				<img src="images/drinks.png" alt="Third" class="slide" />
+				<img src="images/friedrice.png" alt="four" class="slide" />
+				<img src="images/eggroll.png" alt="five" class="slide" />
+				<img src="images/porkchop.png" alt="six" class="slide" />
+				<img src="images/stickers.png" alt="seven" class="slide" />
+				<img src="images/whiterice.png" alt="eight" class="slide" />
+				<img src="images/wontonsoup.png" alt="nine" class="slide" />
+			</div>
+		</div>	
+		<div class="empty"></div>
+		
+			<div class="content">
+			<div class="list">
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Combination Plates</button>
+				<div class="menu" id="comboPlate">
+				  <div class="items">1. Chicken Chow Mein, Egg Roll, Fried Rice and Fortune Cookie</div>
+				  <div class="price">7.25 </div>
+				  <div class="items">2. Sweet and Sour Pork, Egg Roll, Fried Rice and Fortune Cookie</div>
+				  <div class="price">7.25 </div>
+				  <div class="items">3. Beef Chop Suey, Egg Roll, Fried Rice and Fortune Cookie</div>
+				  <div class="price">7.25 </div>
+				  <div class="items">4. Almond Chicken, Egg Roll, Fried Rice and Fortune Cookie</div>
+				  <div class="price">7.25 </div>
+				  <div class="items">5.Panda Dinner
+					  <div class="description">(Minimum 2 orders)</div>
+					  <div class="description">Soup: Three Flavor Bean Curd Soup</div>
+					  <div class="description"> Appetizers: Egg Roll, Fried Wonton, Shrimp, Paper-Wrapped Chicken or B.B.Q. Pork</div>
+				 	  <div class="description"> Entrees: Panda Special Chow Mein, Aromatic Chicken, Beef with Broccoli, Shrimp with Lobster Sauce, Sweet and Sour Pork, Kung-Pao Chicken or Beef with Snow Peas</div>
+				  	  <div class="description"> Pork Fried Rice, Tea and Fortune Cookies</div>
+				  </div>
+				  <div class="price">17.99 (per person)</div>
+				   <div class="items">6.Peking Dinner
+					  <div class="description">(Minimum 2 orders)</div>
+					  <div class="description">Soup: Three Flavor Sizzling Rice Soup</div>
+					  <div class="description"> Appetizers: Pu-Pu Platter</div>
+				 	  <div class="description"> Entrees: Chicken with Cashewnut, Kung-Pao Beef, Aromatic Shrimp, Panda Special Chow Mein, Beef with Broccoli, Szechaun Sliced Pork or Spicy Salt Pork Chop</div>
+				  	  <div class="description"> Pork Fried Rice, Tea and Fortune Cookies</div>
+				  </div>
+				  <div class="price">19.99 (per person)</div>
+				</div>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Special Luncheon</button>
+				<div class="menu" id="chef">
+				  <div class="items">7 days a week until 3:00pm</div>
+				  <div class="items">Includes: Daily Soup, Egg Roll or Fried Shrimp, Fried Wonton and Fried Rice or Steamed Rice</div>
+				  <div class="description">(No. 15, 21, 23, 24 does not include Soup, Egg Roll, Fried Wonton and Fried Rice)</div>
+				  <div class="items">1. Chow San Shien 週三世</div>
+				  <div class="price">7.75</div>
+				  <div class="items">2. Beef with Snow Peas 雪豌豆牛肉 </div>
+				  <div class="price">7.75</div>
+				  <div class="items">3. Beef with Broccoli 西蘭花牛肉</div>
+				  <div class="price">7.75</div>
+				  <div class="items">4. Mongolian Beef 蒙古牛肉</div>
+				  <div class="price">7.75</div>
+				  <div class="items">5. Chicken with Cashewnut 雞腰果</div>
+				  <div class="price">7.75</div>
+				  <div class="items">6. Kung-Pao Chicken 宮保雞丁</div>
+				  <div class="price">7.75</div>
+				  <div class="items">7. Aromatic Chicken 芳香雞</div>
+				  <div class="price">7.75</div>
+				  <div class="items">8. Sweet and Sour Pork 糖醋豬肉</div>
+				  <div class="price">7.75</div>
+				  <div class="items">9. Moo-Shu Pork 那是豬肉 </div>
+				  <div class="price">7.75</div>
+				  <div class="items">10. Szechuan Pork (shredded) 四川豬肉</div>
+				  <div class="price">8.50</div>
+				  <div class="items">11. Shrimp with Lobster Sauce 蝦仁配龍蝦醬</div>
+				  <div class="price">8.50 </div>
+				  <div class="items">12. Aromatic Shrimp 芳香蝦</div>
+				  <div class="price">7.75</div>
+				  <div class="items">13. Three Flavor Chow Mein 三味炒麵</div>
+				  <div class="price">7.75</div>
+				  <div class="items">14. Chicken Chow Mein 雞肉炒麵</div>
+				  <div class="price">7.75</div>
+				  <div class="items">15. Wonton Soup with Noodles 餛飩湯配麵條</div>
+				  <div class="price">8.50</div>
+				  <div class="items">16. Spicy Salt Pork Chops 辣鹽豬排</div>
+				  <div class="price">7.50</div>
+				  <div class="items">17. Buddha's Feast 佛陀的盛宴</div>
+				  <div class="price">8.25</div>
+				  <div class="items">18. Orange Beef 橙色牛肉</div>
+				  <div class="price">7.75</div>
+				  <div class="items">19. Lemon Chicken 柠檬鸡</div>
+				  <div class="price">7.75</div>
+				  <div class="items">20. Orange Chicken 橙鸡</div>
+				  <div class="price">7.75</div>
+				  <div class="items">22. Twice Cooked Pork 两次煮熟的猪肉</div>
+				  <div class="price">7.75</div>
+				  <div class="items">23. Pot Sticker 锅贴纸</div>
+				  <div class="price">7.25</div>
+				  <div class="items">24. Dumplings 水饺</div>
+				  <div class="price">7.25</div>
+				  <div class="items">25. Shredded Pork with Bean Sprouts 豆芽丝猪肉丝</div>
+				  <div class="price">7.75</div>
+				  <div class="items">26. Sweet and Sour Chicken 糖醋雞</div>
+				  <div class="price">7.75</div>
+				  <div class="items">27. Chicken with Fresh Mushrooms 雞肉蘑菇</div>
+				  <div class="price">7.95</div>
+				  <div class="items">28. House Special Chicken 雞舍特價</div>
+				  <div class="price">7.75</div>
+				  <div class="items">29. Spicy Salt Chicken 辣鹽雞 </div>
+				  <div class="price">7.75</div>
+				  <div class="items">30. Spicy Salt Shrimp 辣鹽蝦</div>
+				  <div class="price">8.50</div>
+				</div>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Appetizers</button>
+				<div class="menu" id="apps">
+				  <div class="items">7. Egg Roll (2) 春卷</div>
+				  <div class="price">2.50</div>
+				  <div class="items">7A. Pot Stickers (10) 鍋貼</div>
+				  <div class="price">7.25</div>
+				  <div class="items">7B. Dumplings (10) 水饺 </div>
+				  <div class="price">7.25</div>
+				  <div class="items">8. B.B.Q. Pork 燒烤豬肉 </div>
+				  <div class="price">8.50</div>
+				  <div class="items">9. B.B.Q. Ribs (4) 燒烤肋骨</div>
+				  <div class="price">9.50</div>
+				  <div class="items">10. Paper Wrapped Chicken (6) 紙包雞</div>
+				  <div class="price">7.25</div>
+				  <div class="items">11. Fried Shrimp (6) 炒蝦仁</div>
+				  <div class="price">7.95</div>
+				  <div class="items">12. Fried Won Ton (10) 炒得勝了</div>
+				  <div class="price">5.95</div>
+				  <div class="items">14. Pu-Pu Platter (For Two Persons) 開胃拼盤
+					<div class="description">Assorted arrangements for appetizers served on a rotating platter with center flame for roasting. Paper wrapped chicken, fried shrimp, wonton, egg rol and B.B.Q. spareribs, beef sticks (Serves two or more)</div>
+				  </div>
+				  <div class="price">13.99</div>
+				</div>
+				<button class="collapsible" onmouseover="hover(this)" onmouseout="nohover(this)">Soup</button>
+				<div class="menu" id="soup">
+				  <div class="items">15. Egg Flower Soup 蛋花湯</div>
+				  <div class="price">(S) 6.50 (L) 10.25</div>
+				  <div class="items">15A. Vegetable Soup 蔬菜湯</div>
+				  <div class="price">(S) 6.50 (L) 10.25</div>
+				  <div class="items">16. Hot and Sour Soup 酸辣湯</div>
+				  <div class="price">(S) 6.95 (L) 11.25</div>
+				  <div class="items">17. West Lake Soup 西湖湯</div>
+				  <div class="price">(S) 6.95 (L) 11.25</div>
+				  <div class="items">18. Seaweed Egg Flower Soup 海藻蛋花湯</div>
+				  <div class="price">(S) 6.95 (L) 11.25</div>
+				  <div class="items">19. Assorted Corn with Chicken Soup 什錦玉米雞湯</div>
+				  <div class="price">(S) 6.95 (L) 11.25</div>
+				  <div class="items">20. Wor Won Tom Soup 餛飩湯</div>
+				  <div class="price">(S) 7.50 (L) 11.50</div>
+				  <div class="items">21. Three Flavor Sizzling Rice Soup 三味炙人格的米湯</div>
+				  <div class="price">(S) 7.50 (L) 11.50</div>
+				  <div class="items">22. Three Flavor Bean Curd Soup 三味豆腐湯</div>
+				  <div class="price">(S) 7.50 (L) 11.50</div>
+				</div>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Seafood</button>
+				<div class="menu" id="seafood">
+				  <div class="items">23. Prawn with Spicy Salt (with shell) 蝦仁辣鹽</div>
+				  <div class="price">13.95</div>
+				  <div class="items">24. Kung-Pao Shrimp 宮保蝦</div>
+				  <div class="price">13.50</div>
+				  <div class="items">25. Shrimp with Snow Peas 蝦豌豆</div>
+				  <div class="price">13.50</div>
+				  <div class="items">26. Shrimp with Black & Straw Mushrooms 蝦與黑色和草菇</div>
+				  <div class="price">13.50 </div>
+				  <div class="items">27. Shrimp with Broccoli 西蘭花蝦</div>
+				  <div class="price">13.50</div>
+				  <div class="items">28. Shrimp with Lobster Sauce 蝦仁配龍蝦醬</div>
+				  <div class="price">13.50</div>
+				  <div class="items">29. Shrimp Szechuan Style 蝦川菜風格</div>
+				  <div class="price">13.50</div>
+				  <div class="items">30. Aromatic Shrimp 芳香蝦 </div>
+				  <div class="price">13.50</div>
+				  <div class="items">31. Sauteed Shrimp 炒蝦</div>
+				  <div class="price">13.50</div>
+				  <div class="items">32. Curry Shrimp 咖哩蝦</div>
+				  <div class="price">13.50</div>
+				  <div class="items">33. Scallops Szechuan Style</div>
+				  <div class="price">14.50</div>
+			          <div class="items">34. Scallops with Snow Peas 扇貝配雪豆</div>
+				  <div class="price">14.50</div>
+			          <div class="items">35. Bean Curd Fish 豆腐魚</div>
+				  <div class="price">14.50</div>
+				  <div class="items">36. Sweet and Sour Fish Fillet 糖醋魚片</div>
+				  <div class="price">14.50</div>
+				</div>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Beef</button>
+				<div class="menu" id="beef">
+				  <div class="items">37. Beef with Broccoli 西蘭花牛肉</div>
+				  <div class="price">12.50</div>
+				  <div class="items">37A. Orange Beef 橙色牛肉</div>
+				  <div class="price">12.50</div>
+			          <div class="items">38. Mongolian Beef 蒙古牛肉</div>
+				  <div class="price">12.50</div>
+			          <div class="items">39. Kung-Pao Beef 宮保牛肉</div>
+				  <div class="price">12.50</div>
+				  <div class="items">40. Curry Beef 咖哩牛肉</div>
+				  <div class="price">12.50</div>
+				  <div class="items">41. Beef with Green Pepper 青椒牛肉</div>
+				  <div class="price">12.50</div>
+			          <div class="items">42. Beef with Black and Straw Mushrooms 蝦與黑色和草菇</div>
+				  <div class="price">12.50</div>
+			          <div class="items">43. Salty Beef 咸牛肉</div>
+				  <div class="price">12.50</div>
+				  <div class="items">44. Beef with Snow Peas 牛肉配雪豆</div>
+				  <div class="price">12.50</div>
+				  <div class="items">45. Fillet Steak with Chef's Special Sauce (Cantonese Style) 里脊牛排配廚師特製的醬汁</div>
+				  <div class="price">13.50</div>
+				</div>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Pork</button>
+				<div class="menu" id="comboPlate">
+				  <div class="items">46. Moo-Shu Pork 那是豬肉</div>
+				  <div class="price">(2) 6.95 (4) 12.50 </div>
+				  <div class="items">47. Sweet and Sour Pork 糖醋豬肉</div>
+				  <div class="price">11.25</div>
+				  <div class="items">48. Szechuan Sliced Pork 四川切豬肉</div>
+				  <div class="price">11.25</div>
+				  <div class="items">49. Twice Cooked Pork 兩次煮熟的豬肉</div>
+				  <div class="price">11.25</div>
+				  <div class="items">50. Shredded Pork with Bean Sprouts 豆芽絲豬肉絲</div>
+				  <div class="price">11.25</div>
+				  <div class="items">51. Spicy Salt Pork Chop 辣鹽豬排</div>
+				  <div class="price">13.50</div>
+				</div>
+				<button class="collapsible"   onmouseover="hover(this)" onmouseout="nohover(this)">Chicken</button>
+				<div class="menu" id="chef">
+				  <div class="items">52. Aromatic Chicken 芳香雞肉</div>
+				  <div class="price">11.50</div>
+				  <div class="items">52A. Orange Chicken 橙雞</div>
+				  <div class="price">11.50</div>
+				  <div class="items">52B. Lemon Chicken 檸檬雞</div>
+				  <div class="price">11.50</div>
+				  <div class="items">53. Almond Chicken 杏仁雞</div>
+				  <div class="price">11.50</div>
+				  <div class="items">54. Kung-Pao Chicken 宮保雞丁</div>
+				  <div class="price">11.50</div>
+				  <div class="items">55. Cashew Nut Chicken 腰果雞</div>
+				  <div class="price">11.50</div>
+				  <div class="items">56. Chicken with Snow Peas 雞用雪豆</div>
+				  <div class="price">11.50</div>
+				  <div class="items">57. Chicken with Broccoli 雞肉西蘭花</div>
+				  <div class="price">11.50</div>
+				  <div class="items">58. Chicken with Black and Straw Mushrooms 雞用黑色和草菇</div>
+				  <div class="price">11.50</div>
+			 	  <div class="items">59. Curry Chicken 咖哩雞</div>
+				  <div class="price">11.50</div>
+				</div>
+			</div>
+			
+			<div class="list">
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Vegetable</button>
+				<div class="menu" id="apps">
+				  <div class="items">60. Sautueed Broccoli 飽和的西蘭花</div>
+				  <div class="price">9.50</div>
+				  <div class="items">61. Buddha's Feast 佛的盛宴</div>
+				  <div class="price">9.50</div>
+				  <div class="items">62. Bamboo Shoots with Black Mushrooms 竹筍配黑蘑菇</div>
+				  <div class="price">9.50</div>
+				  <div class="items">63. Ma-Poo Bean Curd 麻豆豆腐</div>
+				  <div class="price">9.50</div>
+				  <div class="items">64. Bean Curd with Brown Curd 豆腐與皇冠凝乳</div>
+				  <div class="price">9.50</div>
+				</div>
+				<button class="collapsible"onmouseover="hover(this)" onmouseout="nohover(this)">Chow Mein</button>
+				<div class="menu" id="soup">
+				  <div class="items">65. Panda Special Chow Mein 熊貓特別炒麵</div>
+				  <div class="price">9.75</div>
+				  <div class="items">66. Shrimp Chow Mein 蝦炒麵</div>
+				  <div class="price">9.75</div>
+				  <div class="items">67. Chicken Chow Mein 雞肉炒麵</div>
+				  <div class="price">9.50</div>
+				  <div class="items">68. Beef Chow Mein 牛肉炒麵</div>
+				  <div class="price">9.50</div>
+				  <div class="items">69. B.B.Q. Pork Chow Mein 燒烤豬肉炒麵</div>
+				  <div class="price">9.50</div>
+				  <div class="items">70. Three Ingredients with Fried Noodles 三種成分與麵條</div>
+				  <div class="price">12.50</div>
+				  <div class="items">71. Beef with Fried Rice Noodles 牛肉配炒米粉</div>
+				  <div class="price">11.50</div>
+				</div>
+				<button class="collapsible" onmouseover="hover(this)" onmouseout="nohover(this)">Fried Rice</button>
+				<div class="menu" id="seafood">
+				  <div class="items">72. Panda Special Fried Rice 熊貓特炒飯</div>
+				  <div class="price">9.75</div>
+				  <div class="items">73. Shrimp Fried Rice 蝦炒飯</div>
+				  <div class="price">9.75</div>
+				  <div class="items">74. Chicken Fried Rice 雞肉炒飯</div>
+				  <div class="price">9.50</div>
+				  <div class="items">75. B.B.Q. Pork Fried Rice 燒烤豬肉炒飯</div>
+				  <div class="price">9.50</div>
+				  <div class="items">76. Beef Fried Rice 牛肉炒飯</div>
+				  <div class="price">9.50</div>
+				  <div class="items">77. Vegetable Fried Rice 蔬菜炒飯</div>
+				  <div class="price">9.25</div>
+				  <div class="items">78. Steamed Rice 蒸米飯</div>
+				  <div class="price">4.50</div>
+				</div>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Egg Foo Young</button>
+				<div class="menu" id="beef">
+				  <div class="items">79. Shrimp Egg Foo Young 蝦蛋福年輕</div>
+				  <div class="price">10.50</div>
+				  <div class="items">80. Chicken Egg Foo Young 雞蛋福年輕</div>
+				  <div class="price">9.75</div>
+				  <div class="items">81. B.B.Q. Pork Egg Foo Young 燒烤蛋福年輕</div>
+				  <div class="price">9.75</div>
+				  <div class="items">82. Beef Egg Foo Young 牛肉蛋福年輕</div>
+				  <div class="price">9.75</div>
+				</div>
+				<button class="collapsible" onmouseover="hover(this)" onmouseout="nohover(this)">Chop Suey</button>
+				<div class="menu" id="beef">
+				  <div class="items">83. Panda Special Chop Suey 熊貓特別雜碎</div>
+				  <div class="price">9.75</div>
+				  <div class="items">84. Shrimp Chop Suey 蝦排雜碎</div>
+				  <div class="price">9.75</div>
+				  <div class="items">85. Chicken Chop Suey 雞排雜碎</div>
+				  <div class="price">9.50</div>
+				  <div class="items">86. Beef Chop Suey 牛排雜碎</div>
+				  <div class="price">9.50</div>
+				  <div class="items">87. B.B.Q. Pork Chop Suey 燒烤豬排</div>
+				  <div class="price">9.50</div>
+				  <div class="items">88. Vegetable Chop Suey 蔬菜雜碎</div>
+				  <div class="price">9.25</div>
+				</div>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Soup Noodles</button>
+				<div class="menu" id="beef">
+				 <div class="items">89. Three Flavor Wonton Noodles 三味餛飩面</div>
+				  <div class="price">8.50</div>
+				  <div class="items">90. Chicken Noodles 雞肉麵</div>
+				  <div class="price">7.95</div>
+				  <div class="items">91. B.B.Q. Pork Noodles 燒烤豬肉麵</div>
+				  <div class="price">7.95</div>
+				  <div class="items">92. Shredded Pork with Pickled Noodles 醃製豬肉醃製麵條</div>
+				  <div class="price">8.25</div>
+				</div>
+				<button class="collapsible"   onmouseover="hover(this)" onmouseout="nohover(this)">Panda Special</button>
+				<div class="menu" id="beef">
+				  <div class="items">93. Shrimp with Walnut 核桃仁蝦</div>
+				  <div class="price">14.95</div>
+				  <div class="items">94. Fish Fillet with Broccoli</div>
+				  <div class="price">14.50</div>
+				  <div class="items">95. Assorted Corn with Fish Fillet 西蘭花魚片</div>
+				  <div class="price">14.50</div>
+				  <div class="items">96. Seafood on Sizzling Plate 鐵板上的海鮮</div>
+				  <div class="price">14.95</div>
+				  <div class="items">97. Scallops on Sizzling Plate 扇形板上的扇貝</div>
+				  <div class="price">14.50</div>
+				  <div class="items">98. Beef on Sizzling Plate 扇形板上的扇貝</div>
+				  <div class="price">13.50</div>
+				  <div class="items">99. Seafood and Bean Curd in Hot Pot 海鮮和豆腐在火鍋裡</div>
+				  <div class="price">14.50</div>
+				  <div class="items">100. Panda Special Hot Pot 熊貓特別火鍋</div>
+				  <div class="price">13.50</div>
+				</div>
+				<button class="collapsible"  onmouseover="hover(this)" onmouseout="nohover(this)">Drinks</button>
+				<div class="menu" id="beef">
+				 <div class="items">Orange Juice</div>
+				  <div class="price">1.95</div>
+				  <div class="items">Iced Tea (Bottle)</div>
+				  <div class="price">2.50</div>
+				  <div class="items">Iced Tea</div>
+				  <div class="price">1.00</div>
+				  <div class="items">Soda</div>
+				  <div class="price">1.50</div>
+				  <div class="items">Coors / Coors Lite</div>
+				  <div class="price">3.50</div>
+				  <div class="items">Miller Lite / MGD</div>
+				  <div class="price">3.50</div>
+				  <div class="items">Budweiser / Lite</div>
+				  <div class="price">3.50</div>
+				  <div class="items">Heineken / Corona</div>
+				  <div class="price">3.95</div>
+				  <div class="items">Tsing Tao</div>
+				  <div class="price">3.95</div>
+				  <div class="items">Sake</div>
+				  <div class="price">3.95</div>
+				  <div class="items">Wine</div>
+				  <div class="price">3.95</div>
+				  <div class="items">Thai Iced Tea</div>
+				  <div class="price">2.50</div>
+				  <div class="items">Hot Tea
+					  <div class="description">(per person)</div>
+				  </div>
+				  <div class="price">0.50</div>
+				</div>
+			</div>
+		
+		<div class="empty2"></div>
+		<div class="navbar" id="bottombar">
+ 			<a href="https://postmates.com/merchant/panda-garden-long-beach" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="left">PostMates</a>
+  			<a href="https://www.doordash.com/store/panda-garden-long-beach-111859/" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="left">DoorDash</a>
+    		<a href="https://goo.gl/maps/JnuBqELxYJS2" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="right">4101 Atlantic Blvd, Long Beach,CA 90807</a>
+    		<a href="mailto:pandagardenlongbeach@gmail.com" target="_blank" onmouseover="tabhover(this)" onmouseout="none(this)" class="right">pandagardenlongbeach@gmail.com</a>
+		</div>
+		<script src="menu.js"></script>
+		<script src="all.js"></script>
+
+	</body>
+</html>
