@@ -219,6 +219,9 @@ div.c {
 		height: 200px;
 		width: 100%;
 	}
+	.empty{
+		height:2000px;
+	}
 }
 
 
@@ -237,7 +240,11 @@ div.c {
 		height: 200px;
 		width: 100%;
 	}
+	.empty{
+		height:2000px;
+	}
 }
+
 
 @media screen and (min-width: 952px) and (max-width: 1600px){
 	.container1 {
@@ -250,4 +257,8 @@ div.c {
 		height: 200px;
 		width: 100%;
 	}
+	.empty{
+		height:1750px;
+	}
 }
+
