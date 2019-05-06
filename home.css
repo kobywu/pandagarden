@@ -7,7 +7,7 @@
 	width:  100%;	
 }
 .empty2{
-	height: 3000px;
+	height: 200px;
 	width:100%;
 }
 
@@ -97,5 +97,8 @@
 }
 .info{
 	width:100%;
+}
+	.empty2{
+	height:600px;
 }
 }
