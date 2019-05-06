@@ -123,6 +123,7 @@ text-decoration: none;
   position: fixed;
   bottom: 0;
   width: 100%;
+  
 }
 
 .navbar a {
@@ -150,6 +151,7 @@ float:right;
 @media screen and (max-width: 1220px) {
 	.navbar{
 	display:block;
+	
 	}
 	.navbar a {
 	width:100%;
